@@ -1,11 +1,8 @@
-import './App.css'
+import "./App.css";
+import ProductList from "./pages/ProductList";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-   
-  )
+	return <ProductList />;
 }
 
-export default App
+export default App;
